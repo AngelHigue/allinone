@@ -10,7 +10,10 @@ export const Participants = () => {
   })
 
   const hanldeLogin = () => {
-    if (login.user == 'admin' && login.password == 'admin2020') {
+    if (
+      login.user == 'juanmarcos1304@gmail.com' &&
+      login.password == '1304150821042511'
+    ) {
       alert('Bienvido')
       setAuth(true)
     }
@@ -41,7 +44,7 @@ export const Participants = () => {
 
   return (
     <React.Fragment>
-      {auth ? (
+      {!auth ? (
         <div style={{ backgroundColor: 'white', padding: '50px' }}>
           <label htmlFor="">Usuario</label>
           <input type="text" name="user" onChange={singIn} />
