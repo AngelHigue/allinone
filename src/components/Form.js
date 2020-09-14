@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import 'firebase/firestore'
 import { useFirebaseApp } from 'reactfire'
+import bg from '../assets/img/BACKGRAUND.jpg'
 
 export const Form = () => {
   //Intance firebase
@@ -42,9 +43,11 @@ export const Form = () => {
   return (
     <React.Fragment>
       <section
+        
         style={{
+          backgroundImage: "url('" + bg + "')",
           backgroundRepeat: 'no-repeat',
-          backgroundSize: '100%',
+          backgroundSize: '115%',
         }}
         id="involucrate"
         class="s-contact">
@@ -53,16 +56,15 @@ export const Form = () => {
 
         <div class="row section-header" data-aos="fade-up">
           <div class="col-full">
-            <h3 class="subhead">Involúcrate</h3>
-            <h1 class="display-2 display-2--light">Sé parte de All In One</h1>
+            <h3 class="subhead">Regístrate</h3>
+            <h1 class="display-2 display-2--light">Sé parte de OUR SEASON</h1>
           </div>
         </div>
 
         <div class="row contact-content" data-aos="fade-up">
           <div class="contact-primary">
             <h3 class="h6">
-              INGRESA TUS DATOS Y NOS COMUNICAREMOS CONTIGO PARA INVOLUCRARTE A
-              NUESTRO GRUPO.
+              INGRESA TUS DATOS PARA REGISRTARTE.
             </h3>
 
             <form onSubmit={hanldeSubmbit}>
@@ -114,9 +116,9 @@ export const Form = () => {
                   />
                 </div>
                 <div class="form-field">
-                  <button class="full-width btn--primary">Enviar</button>
+                  <button class="full-width btn--primary">Registrarse</button>
                   <div class="submit-loader">
-                    <div class="text-loader">Enviando...</div>
+                    <div class="text-loader">Registrando...</div>
                     <div class="s-loader">
                       <div class="bounce1"></div>
                       <div class="bounce2"></div>
@@ -144,18 +146,15 @@ export const Form = () => {
           <div class="contact-secondary">
             <div class="contact-info">
               <h3 class="h6 hide-on-fullwidth">
-                ACERCARTE A JESÚS ES LA MEJOR DECISIÓN QUE HAZ TOMADO,
-                EXPERIMENTARÁS SU INCOMPARABLE AMOR DE UNA MANERA GENUINA,
-                SEGUIR A JESÚS NO ES UNA RELIGIÓN, ES TENER UNA RELACIÓN Y UN
-                ESTILO DE VIDA QUE TE PERMITIRÁ TENER PAZ, AMOR Y FELICIDAD.
-                PERMITENOS AYUDARTE EN ESTE NUEVO CAMINAR.
+                SI DESEAS REGISTRARTE, LLENA EL SIGUIENTE FORMULARIO
+                PARA FORMAR PARTE DE ESTA INCREIBLE EXPERIENCIA.
               </h3>
 
               <div class="cinfo">
-                <h5>S. Juan 15:13</h5>
+                <h5>Jeremías 29:11</h5>
                 <p>
-                  Nadie tiene mayor amor que este, que uno ponga su vida por sus
-                  amigos.
+                Pues yo sé los planes que tengo para ustedes —dice el Señor—. 
+                Son planes para lo bueno y no para lo malo, para darles un futuro y una esperanza.
                 </p>
               </div>
             </div>

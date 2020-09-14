@@ -6,6 +6,8 @@ import img3 from '../assets/img/plenaria.png'
 import img4 from '../assets/img/talleres.png'
 import img5 from '../assets/img/musica.png'
 import img6 from '../assets/img/participantes.png'
+import img7 from '../assets/img/Recurso 8.png'
+import img8 from '../assets/img/Recurso 9.png'
 
 export const Features = () => {
   return (
@@ -34,7 +36,14 @@ export const Features = () => {
         </div>
 
         <div class="row services-list block-1-2 block-tab-full">
-          <iframe
+          {/*<img
+            style={{ float: 'left', marginTop: '-180px', marginBlockEnd: '-110px' }}
+            src={img}
+            alt=""
+            width="900px"
+          />*/}
+          
+          {/*<iframe
             style={{
               float: 'left',
               borderRadius: '15px 15px 15px 15px',
@@ -45,7 +54,7 @@ export const Features = () => {
             src="https://www.youtube.com/embed/bIv5mIksNX0"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen="true"></iframe>
+          allowfullscreen="true"></iframe>*/}
 
           <div class="col-block service-item" data-aos="fade-up">
             <div class="service-icon">
@@ -133,6 +142,25 @@ export const Features = () => {
               </p>
             </div>
           </div>
+
+          <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+              <img src={img7} alt="" width="40px" />
+            </div>
+            <div class="service-text">
+              <h3 style={{ color: '00eebd' }} class="h2">
+                Fecha
+              </h3>
+              <img
+            style={{ float: 'left', marginTop: '45px', marginBlockEnd: '-110px' }}
+            src={img8}
+            alt=""
+            width="900px"
+          />
+            </div>
+          </div>
+
+          
         </div>
       </section>
     </React.Fragment>

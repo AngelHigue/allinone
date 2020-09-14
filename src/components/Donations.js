@@ -41,17 +41,17 @@ export const Donations = () => {
               <h4 style={{ color: 'black', marginBlockEnd: '10px' }}>
                 Depósito Monetario
               </h4>
-              <p style={{ color: 'black' }}>Nombre del Banco.</p>
+              <p style={{ color: 'black' }}>BAC 966154833</p>
               <p style={{ color: 'black', marginTop: '-35px' }}>
-                A nombre de quien
+              Pablo Samuel Morales Tejeda
               </p>
 
               <h4 style={{ color: 'black', marginBlockEnd: '10px' }}>
                 Transferencia
               </h4>
-              <p style={{ color: 'black' }}>Nombre del Banco.</p>
+              <p style={{ color: 'black' }}>BAC 966154833</p>
               <p style={{ color: 'black', marginTop: '-35px' }}>
-                A nombre de quien
+                Pablo Samuel Morales Tejeda
               </p>
             </div>
           </div>

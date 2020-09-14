@@ -53,17 +53,17 @@ export const Hero = () => {
             </a>
           </li>
           <li>
-            <a href="#0">
+            <a href="https://api.whatsapp.com/send?phone=50251231535&text=Somos%20All%20In%20One,%20En%20Que%20Podemos%20Servirte?">
               <i class="fa fa-whatsapp" aria-hidden="true"></i>
               <span style={{ color: 'white' }}>WhatsApp</span>
             </a>
           </li>
-          <li>
+          {/*<li>
             <a href="#0">
               <i class="fa fa-youtube" aria-hidden="true"></i>
               <span style={{ color: 'white' }}>YouTube</span>
             </a>
-          </li>
+          </li>*/}
         </ul>
         {/* Fin Redes sociales */}
       </section>

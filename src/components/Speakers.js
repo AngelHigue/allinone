@@ -14,6 +14,11 @@ import imag7 from '../assets/img/3.JPG'
 import imag8 from '../assets/img/9.JPG'
 import imag9 from '../assets/img/10.JPG'
 import imag10 from '../assets/img/8.JPG'
+import imag11 from '../assets/img/11.JPG'
+import imag12 from '../assets/img/12.JPG'
+import imag13 from '../assets/img/13.JPG'
+import imag14 from '../assets/img/14.JPG'
+import imag15 from '../assets/img/15.JPG'
 import img from '../assets/img/Recurso 2.png'
 
 export const Speakers = () => {
@@ -57,6 +62,26 @@ export const Speakers = () => {
     {
       original: imag10,
       thumbnail: imag10,
+    },
+    {
+      original: imag11,
+      thumbnail: imag11,
+    },
+    {
+      original: imag12,
+      thumbnail: imag12,
+    },
+    {
+      original: imag13,
+      thumbnail: imag13,
+    },
+    {
+      original: imag14,
+      thumbnail: imag14,
+    },
+    {
+      original: imag15,
+      thumbnail: imag15,
     },
   ]
 

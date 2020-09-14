@@ -20,7 +20,7 @@ export const Navbar = () => {
             <a href="#congreso">Congreso</a>
           </div>
           <div className="menu-item">
-            <a href="#involucrate">Involúcrate</a>
+            <a href="#involucrate">Regístrate</a>
           </div>
           <div className="menu-item">
             <a href="#oracion">Oración</a>

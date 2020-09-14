@@ -18,7 +18,7 @@ export const Contact = () => {
     <div class="col-six tab-full right footer-subscribe">
 
         <h4 style={{ color: 'orange', marginBottom:'10' }}>Llamanos</h4>
-        <p>(+502) 0000 0000</p>
+        <p>(+502) 4496 8069</p>
     
     </div>
 
@@ -42,11 +42,11 @@ export const Contact = () => {
                             <a href="https://instagram.com/allinone_gt?igshid=1q5amyv5myces"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=50251231535&text=Somos%20All%20In%20One,%20En%20Que%20Podemos%20Servirte?"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
                         </li>
-                        <li>
+                        {/*<li>
                             <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                        </li>
+                        </li>*/}
                     </ul>
 
         <div class="go-top">
